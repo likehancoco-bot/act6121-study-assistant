@@ -1,0 +1,18 @@
+/* Purple and gold theme: user-approved #72246C / #C99700. */
+:root{--paper:#faf7fa;--surface:#fffdfb;--ink:#392337;--muted:#796777;--green:#72246C;--lime:#f6d567;--line:#e6dce5;--orange:#936b00;--soft:#f2eaf2;--red:#a13545}
+.sidebar{background:#f2eaf2}.side-note{background:#eaddE9}.chapter-link .num{border-color:#d6bdd2}.chapter-link.active{box-shadow:0 3px 12px #72246c08}
+.brandmark{color:#f6d567}.primary:hover:not(:disabled){background:#8c3584}button:hover:not(:disabled){background:#f1e5ef}.primary:hover:not(:disabled){background:#8c3584;color:white}
+.hero{background:#72246C;color:#fffdfb}.hero .eyebrow{color:#f1dfef}.hero p{color:#efdfed}.hero .hero-en{color:#f8e9b0}.hero-count{border-color:#a66a9e}.hero-count strong{color:#f6d567}.hero-count strong span,.hero-count small{color:#efdfed!important}
+.progress{background:#e4d5e0}.progress span{background:#C99700}.hero .progress{background:#9a5b93}.hero .progress span{background:#f6d567}
+.tag.pass{background:#f7edcc;color:#755600}.tag.weak{background:#f8e6eb;color:#9b344d}.concept-card.weak{border-left-color:#C99700}
+.formula,.navigator{background:#f0e5ee}.navigator button.active{background:#72246C;color:white}.trap{background:#fcf4dc;border-left-color:#C99700}
+.option:has(input:checked){background:#f2e5f0;border-color:#9c5795}.numeric{border-color:#c9abc4}.feedback.correct{background:#f7efda}.feedback.wrong{background:#fbe8ed}
+.notice{background:#f2eaf2}.notice.warning{background:#fff4d9;border-color:#d9b34c}.mastery{background:#fbf1ce;border-color:#d5b349}.empty{background:#f6eff5;border-color:#ceb8c9}
+.map-branch{border-color:#b990b3}.map-branch:before{background:#b990b3}.weak-row .rank{color:#936b00}.concept-card{box-shadow:0 3px 10px #72246c03}
+.confetti{background:#C99700!important}.confetti:nth-child(3n){background:#72246C!important}.confetti:nth-child(3n+1){background:#e5b5dd!important}
+#toast{box-shadow:0 8px 35px #72246c30}.search{border-color:var(--line)}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:#C99700}
+.bilingual .zh{border-color:#ddcbd9}.exam-table th{background:#f2eaf2}
+@media(max-width:680px){.hero-count{border-top-color:#a66a9e}}
+@media print{.hero{background:white;color:black}.hero p,.hero .eyebrow,.hero .hero-en{color:#444}.hero-count{display:none}}
+
+.brandmark{width:38px;height:42px;flex-shrink:0;background:transparent;border-radius:0;overflow:hidden}.brandmark img{width:38px;height:42px;display:block;object-fit:contain}
